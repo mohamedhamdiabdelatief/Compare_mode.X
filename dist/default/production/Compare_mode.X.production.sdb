@@ -1,0 +1,81 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F877A ]
+[d frameptr 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"6 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\pic\__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+"15 C:\Users\original\MPLABXProjects\Compare_mode.X\compare_mode.c
+[v _main main `(v  1 e 1 0 ]
+"43
+[v _isr isr `II(v  1 e 1 0 ]
+[s S43 . 1 `uc 1 RC0 1 0 :1:0 
+`uc 1 RC1 1 0 :1:1 
+`uc 1 RC2 1 0 :1:2 
+`uc 1 RC3 1 0 :1:3 
+`uc 1 RC4 1 0 :1:4 
+`uc 1 RC5 1 0 :1:5 
+`uc 1 RC6 1 0 :1:6 
+`uc 1 RC7 1 0 :1:7 
+]
+"295 C:/Program Files/Microchip/MPLABX/v5.45/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h
+[u S52 . 1 `S43 1 . 1 0 ]
+[v _PORTCbits PORTCbits `VES52  1 e 1 @7 ]
+"634
+[v _TMR1 TMR1 `VEus  1 e 2 @14 ]
+"885
+[v _CCPR1 CCPR1 `VEus  1 e 2 @21 ]
+[s S22 . 1 `uc 1 TRISC0 1 0 :1:0 
+`uc 1 TRISC1 1 0 :1:1 
+`uc 1 TRISC2 1 0 :1:2 
+`uc 1 TRISC3 1 0 :1:3 
+`uc 1 TRISC4 1 0 :1:4 
+`uc 1 TRISC5 1 0 :1:5 
+`uc 1 TRISC6 1 0 :1:6 
+`uc 1 TRISC7 1 0 :1:7 
+]
+"1454
+[u S31 . 1 `S22 1 . 1 0 ]
+[v _TRISCbits TRISCbits `VES31  1 e 1 @135 ]
+"2434
+[v _CCP1IE CCP1IE `VEb  1 e 0 @1122 ]
+"2437
+[v _CCP1IF CCP1IF `VEb  1 e 0 @98 ]
+"2440
+[v _CCP1M0 CCP1M0 `VEb  1 e 0 @184 ]
+"2443
+[v _CCP1M1 CCP1M1 `VEb  1 e 0 @185 ]
+"2446
+[v _CCP1M2 CCP1M2 `VEb  1 e 0 @186 ]
+"2449
+[v _CCP1M3 CCP1M3 `VEb  1 e 0 @187 ]
+"2569
+[v _GIE GIE `VEb  1 e 0 @95 ]
+"2629
+[v _PEIE PEIE `VEb  1 e 0 @94 ]
+"2857
+[v _T1CKPS0 T1CKPS0 `VEb  1 e 0 @132 ]
+"2860
+[v _T1CKPS1 T1CKPS1 `VEb  1 e 0 @133 ]
+"2884
+[v _TMR1CS TMR1CS `VEb  1 e 0 @129 ]
+"2893
+[v _TMR1ON TMR1ON `VEb  1 e 0 @128 ]
+"14 C:\Users\original\MPLABXProjects\Compare_mode.X\compare_mode.c
+[v _x x `uc  1 e 1 0 ]
+"15
+[v _main main `(v  1 e 1 0 ]
+{
+"42
+} 0
+"43
+[v _isr isr `II(v  1 e 1 0 ]
+{
+"55
+} 0
